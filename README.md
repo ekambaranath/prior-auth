@@ -114,13 +114,7 @@ npm run dev
 # Open http://localhost:5173
 ```
 
-### 4. GitHub Codespaces
-```bash
-# Open repo in Codespaces — ports 8000, 5173, 11434 auto-forward
-# Terminal 1: cd backend && uvicorn api.main:app --reload
-# Terminal 2: cd frontend && npm run dev
-# Terminal 3: ollama serve && ollama pull granite3-dense:8b
-```
+
 
 ---
 
