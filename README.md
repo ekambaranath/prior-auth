@@ -11,10 +11,13 @@
 
 **An Agentic AI system powered by IBM Granite that automates healthcare prior authorization decisions using a 5-agent pipeline — reducing 14-day manual reviews to seconds.**
 
+## ⚡ Problem → Approach → Result
+
 | | |
-| **Problem** | Healthcare payers manually review millions of Prior Authorization requests per year. Each decision takes 3–14 days, costs $8–12, and 88% of physicians say delays directly harm patient outcomes. |
-| **Approach** | Built a 5-agent IBM Granite pipeline where each agent is a specialist — Eligibility, Policy, Clinical Criteria, Compliance, and Decision. Agents run sequentially, passing outputs downstream. The LLM layer is fully abstracted: runs on Ollama locally, switches to IBM WatsonX.ai in production with one env var. |
-| **Result** | Prior authorization decisions in under 30 seconds with full audit trail, HIPAA compliance validation, confidence scoring, and actionable next steps — reducing cost per decision from $8–12 to under $0.05. |
+|---|---|
+| **Problem** | Healthcare payers manually review millions of Prior Authorization requests every year. Each decision takes 3–14 days, costs $8–12 to process, and 88% of physicians report that delays directly harm patient outcomes. The process is manual, error-prone, and has no audit trail. |
+| **Approach** | Built a 5-agent IBM Granite pipeline where each agent is a domain specialist — Eligibility, Policy Lookup, Clinical Criteria, HIPAA Compliance, and Final Decision. Agents run sequentially, each passing validated outputs downstream to the next. The LLM layer is fully abstracted: runs on IBM Granite via Ollama locally, and switches to IBM WatsonX.ai in production with a single environment variable — zero code changes. |
+| **Result** | Prior authorization decisions delivered in under 30 seconds with full reasoning trail, HIPAA compliance validation, NPI verification, clinical scoring, and actionable next steps — reducing turnaround from 14 days to seconds and cost per decision from $8–12 to under $0.05. |
 
 
 
