@@ -9,14 +9,12 @@
 [![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-black?style=flat-square)](https://ollama.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-**A agentic AI system powered by IBM Granite that automates healthcare prior authorization decisions using a 5-agent pipeline — reducing 14-day manual reviews to seconds.**
+**An Agentic AI system powered by IBM Granite that automates healthcare prior authorization decisions using a 5-agent pipeline — reducing 14-day manual reviews to seconds.**
 
-| | |
-|---|---|
 | **Problem** | Healthcare payers manually review millions of Prior Authorization requests per year. Each decision takes 3–14 days, costs $8–12, and 88% of physicians say delays directly harm patient outcomes. |
 | **Approach** | Built a 5-agent IBM Granite pipeline where each agent is a specialist — Eligibility, Policy, Clinical Criteria, Compliance, and Decision. Agents run sequentially, passing outputs downstream. The LLM layer is fully abstracted: runs on Ollama locally, switches to IBM WatsonX.ai in production with one env var. |
 | **Result** | Prior authorization decisions in under 30 seconds with full audit trail, HIPAA compliance validation, confidence scoring, and actionable next steps — reducing cost per decision from $8–12 to under $0.05. |
-EOF
+
 
 
 </div>
