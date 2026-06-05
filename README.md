@@ -159,22 +159,6 @@ prior-auth-agent/
 
 ---
 
-## 🔄 LLM Provider Switching
-
-Switch from local Ollama to IBM WatsonX.ai with one env var — zero code changes:
-
-```bash
-# Local development (default)
-LLM_PROVIDER=ollama
-LLM_MODEL=granite3-dense:8b
-
-# IBM Consulting production
-LLM_PROVIDER=watsonx
-WATSONX_API_KEY=your-ibm-cloud-key
-WATSONX_PROJECT_ID=your-project-id
-WATSONX_MODEL=ibm/granite-13b-instruct-v2
-```
-
 ---
 
 ## 💡 Sample Cases
