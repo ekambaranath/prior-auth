@@ -1,4 +1,4 @@
-# 🏥 PriorAuthAI — Multi-Agent Prior Authorization System
+# 🏥 PriorAuthAI — Multi-Agent Prior Authorization System using IBM Granite
 
 <div align="center">
 
